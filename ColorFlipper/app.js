@@ -4,7 +4,14 @@ const color=document.querySelector(".color");
 
 btn.addEventListener('click',function(){
     //get random numer Between 0-3 colors[1]
-    const randomNumber =2;
+    const randomNumber = getRandomNumber();
+    console.log(randomNumber);
+
     document.body.style.backgroundColor= color[randomNumber];
     color.textContent=color[randomNumber];
 })
+
+function getRandomNumber(){
+    return Math.floor(Math.random()* colors.length);
+}
+
