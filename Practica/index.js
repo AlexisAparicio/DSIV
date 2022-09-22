@@ -30,6 +30,10 @@ function ourFunction(a,b){
 ourFunction(20,22);
 
 //Global Scope
+function fun1(){
+    oopsglobal=5;
+}
+
 function fun2(){
     var output="";
     if(typeof myglobal!= "undefined"){
@@ -42,3 +46,6 @@ function fun2(){
 }
 
 fun2();
+fun1();
+
+
