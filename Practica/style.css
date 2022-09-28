@@ -1,0 +1,18 @@
+a{
+    font-family: 'Inter Tight', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+
+img{
+    width: 35%;
+    height:35%;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0,0 0,0.06,);
+}
